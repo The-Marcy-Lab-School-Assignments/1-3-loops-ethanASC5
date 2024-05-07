@@ -1,12 +1,12 @@
  const loop0UpTo10 = (i) => {
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 11; i++) {
     console.log(i);
 }
 };
 loop0UpTo10()
 
 const loop5to10 = (i) => {
-  for (let i = 5; i < 10; i++) {
+  for (let i = 5; i < 11; i++) {
     console.log(i);
 }
 };
@@ -34,7 +34,7 @@ const loopUpToNum = (num) => {
     }
 }
 
-loopUpToNum(10); 
+loopUpToNum(22); 
 ;
 
 const fizzbuzz = () => {
