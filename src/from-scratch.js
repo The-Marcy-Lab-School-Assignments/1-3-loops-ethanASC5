@@ -1,10 +1,11 @@
- const loop0UpTo10 = (i) => {
+/** FEEDBACK: Look at the tests, should you include or exclude the 10?  */
+const loop0UpTo10 = (i) => {
   for (let i = 0; i < 11; i++) {
     console.log(i);
 }
 };
 loop0UpTo10()
-/** FEEDBACK: Look at the tests, should you include or exclude the 10?  */
+
 const loop5to10 = (i) => {
   for (let i = 5; i < 11; i++) {
     console.log(i);
