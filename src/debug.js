@@ -1,6 +1,6 @@
 const brokenLoop = (start, end) => {
   let result = '';
-  for (let i = start; i < end; i += 2) {
+  for (let i = start; i <= end; i ++) {
     result += i;
   }
   return result;
@@ -8,9 +8,9 @@ const brokenLoop = (start, end) => {
 
 const brokenNested = () => {
   let result = '';
-  for (let i = 0; i < 2; i++) {
+  for (let num = 0; num < 2; num++) {
     for (let i = 0; i < 10; i++) {
-      result += `-${i}${i}`;
+      result += `-${num}${i}`;
     }
   }
   return result.slice(1);

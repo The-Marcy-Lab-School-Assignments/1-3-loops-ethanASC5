@@ -10,6 +10,7 @@ const continueGuardClause = () => {
       console.log("Sure glad this isn't 2 or 3");
       console.log(i);
     }
+    continue
   }
 };
 
